@@ -91,13 +91,13 @@ def search_similar_segments(user_text, segments_dict, ids, embedding_matrix, top
     ]
 
 def format_time(seconds):
-    """Converts seconds into MM:SS format."""
+    # Converts seconds into MM:SS format.
     minutes, remaining_seconds = divmod(int(seconds), 60)
     return f"{minutes}:{remaining_seconds:02d}"
 
 @app.route("/")
 def index():
-    """Renders the homepage."""
+    # Renders the homepage.
     return render_template("index.html")
 
 @app.route("/upload", methods=["POST"])
