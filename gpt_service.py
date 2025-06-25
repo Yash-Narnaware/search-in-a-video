@@ -4,7 +4,7 @@ from duckduckgo_search import DDGS
 class GPTService:
     # API_URL = "https://api-inference.huggingface.co/models/tiiuae/falcon-7b-instruct"
     API_URL = "https://api-inference.huggingface.co/models/mistralai/Mixtral-8x7B-Instruct-v0.1"
-    API_TOKEN = ""  #  Replace with your Hugging Face token
+    API_TOKEN = "your_huggingface_token"  #  Replace with your Hugging Face token
 
     @staticmethod
     def get_web_context(query, num_results=3):
