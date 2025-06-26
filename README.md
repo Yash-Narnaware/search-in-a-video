@@ -6,7 +6,7 @@ A web app that lets you **search inside a video** using natural language. Just t
 
 - 🔎 **Search by text**: Input a query, and get a list of timestamps where the topic is mentioned.
 - 💬 **Chat with the video**: Have a conversation with the video content using a chatbot interface powered by LLMs.
-- 🧠 **AI-powered transcription**: Uses models like Whisper or Vosk to convert speech to text.
+- 🧠 **AI-powered transcription**: Uses models like Whisper or Vosk to convert speech to text, and OCR models like EasyOCR to extract text from video frames.
 - ⚡ **Fast and responsive**: Built with Flask and modern frontend tools for seamless UX.
 - 📦 **Modular architecture**: Easily pluggable for different video and model backends.
 
@@ -14,8 +14,9 @@ A web app that lets you **search inside a video** using natural language. Just t
 
 1. Upload a video.
 2. The video is transcribed using speech-to-text models (e.g., Whisper/Vosk).
-3. The transcript is segmented and indexed.
-4. Enter a text prompt or chat query:
+3. The video is also transcribed by extracting text from video frames using OCR models (e.g., EasyOCR)
+4. The transcript is segmented and indexed.
+5. Enter a text prompt or chat query:
    - For a **search**, the app uses vector similarity to return timestamps.
    - For a **chat**, the app uses an LLM to generate context-aware responses.
 
