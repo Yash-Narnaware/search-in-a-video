@@ -71,8 +71,29 @@ flowchart TD
     classDef feedback fill:#f5f5f5,stroke:#808080,stroke-width:2px,dashed
     classDef fusion fill:#ffe4e1, stroke:#ff6347, stroke-width:2px
     classDef process fill:#e6e6fa, stroke:#483d8b, stroke-width:2px
+    style A color:#000000
+    style B color:#000000
+    style C color:#000000
+    style D color:#000000
+    style E color:#000000
+    style F color:#000000
+    style N color:#000000
+    style H color:#000000
+    style I color:#000000
+    style J color:#000000
+    style X color:#000000
+    style L color:#000000
+    style M color:#000000
+    style S color:#000000
+    style O color:#000000
+    style P color:#000000
+    style T color:#000000
+    style U color:#000000
+    style V color:#000000
+    style W color:#000000
     linkStyle 14 stroke:none,fill:none
     L_T_S_0@{ animation: none }
+
 
     %% Legend
     click A "https://github.com/Yash-Narnaware/search-in-a-video" "View on GitHub"
