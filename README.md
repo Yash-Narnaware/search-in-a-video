@@ -1,6 +1,6 @@
 # 🎥🔍 Search in a Video: Semantic Video Search & Chat [![Demo Video](https://img.shields.io/badge/Demo-Watch%20Now-blue)](https://drive.google.com/file/d/1fjFBxFdir0XSKcB88zvieXRVacDJKinB/view?usp=sharing)
 
-A cutting-edge web app that lets you **search inside videos using natural language** and **chat with video content** using Retrieval-Augmented Generation (RAG). Returns precise timestamps where your query appears.
+This is a cutting-edge web app that lets you **search inside videos using natural language** and **chat with video content** using Retrieval-Augmented Generation (RAG). Returns precise timestamps where your query appears.
 
 **Key Innovations**:  
 - 🎯 **5.7% WER accuracy** with Whisper Small (40% fewer errors than alternatives)  
